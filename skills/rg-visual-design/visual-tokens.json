@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "brand": "RG.Experience",
+  "source": "RG Brand Guideline v1.2",
+  "status": "initial-extraction",
+  "colors": {
+    "primary": {
+      "rg-navy": { "value": "#19376D", "status": "source-derived", "role": "primary brand color" },
+      "rg-red": { "value": "#C62128", "status": "source-derived", "role": "primary brand color and emphasis" }
+    },
+    "secondary": {
+      "rg-light-blue": { "value": "#D7E5F5", "status": "source-derived", "role": "secondary color" },
+      "rg-light-green": { "value": "#DAF2D0", "status": "source-derived", "role": "secondary color" },
+      "rg-light-yellow": { "value": "#FFFFCC", "status": "source-derived", "role": "secondary color" },
+      "rg-light-pink": { "value": "#FBE2D5", "status": "source-derived", "role": "secondary color" }
+    },
+    "image_treatment_example": {
+      "filter_color": "#546198",
+      "transparency_percent": 75,
+      "status": "source-derived-example",
+      "note": "Apply only in the context specified by the official guideline; not a global image filter."
+    }
+  },
+  "typography": {
+    "english": { "preferred": "Roboto", "fallback": "Calibri", "status": "source-derived" },
+    "chinese": { "preferred": "汉仪旗黑", "fallback": "等线", "status": "source-derived" },
+    "hierarchy_example": {
+      "heading": { "ratio": 1.0, "example_pt": 64 },
+      "summary": { "ratio": 0.5, "example_pt": 32 },
+      "body": { "ratio": 0.3, "example_pt": 19.2 },
+      "caption": { "ratio": 0.25, "example_pt": 16 },
+      "status": "source-derived-example",
+      "note": "Illustrative proportions, not universal fixed sizes."
+    }
+  },
+  "graphic_language": {
+    "building_blocks": { "status": "source-derived", "usage": "modular geometric forms and square-based elements" },
+    "blocks_and_lines": { "status": "source-derived", "usage": "structure, flow, change, and connection" },
+    "tube_light_effect": { "status": "source-derived", "usage": "conditional depth/light treatment based on joined square forms" },
+    "shanghai_skyline": { "status": "source-derived", "usage": "location-specific visual when RG office location is relevant" }
+  },
+  "unverified": [
+    "logo clear-space and minimum-size measurements",
+    "grid, spacing, margin, and safe-area values",
+    "exact building-block vector geometry",
+    "secondary color semantic mapping by component",
+    "chart series color order and semantic mapping",
+    "platform-specific minimum font sizes"
+  ],
+  "usage_rules": [
+    "Do not invent missing brand tokens.",
+    "Do not alter or regenerate official logo artwork.",
+    "Use secondary colors as support rather than competing accents.",
+    "Preserve category color consistency across related charts.",
+    "Do not apply the example image filter globally."
+  ]
+}
